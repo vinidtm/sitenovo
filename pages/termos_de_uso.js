@@ -1,9 +1,15 @@
 import React from 'react';
 import Footer from './footer';
+import Head from 'next/head';
 
 const Termos_de_Uso = () => {
   return (
     <> 
+    <Head>
+    <title>Termos de Uso - Elixir Bioativo</title>
+    <meta name="description" content="Esses são os Termos de uso do nosso site." />
+    <link rel='shortcut icon' href='/Icon.jpg' />
+    </Head>
       <div>
       <div class="container-privacidade-termos">
       <h2>1. Termos</h2>

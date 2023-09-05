@@ -2,11 +2,11 @@ import React from 'react';
 import Footer from './footer';
 import Head from 'next/head';
 
-const Home = () => {
+const promocao = () => {
   return (
     <>
     <Head>
-    <title>Home - Elixir Bioativo</title>
+    <title>Promoção - Elixir Bioativo</title>
     <meta name="description" content="Está é o site oficial do Elixir Bioativo" />
     <link rel='shortcut icon' href='/Icon.jpg' />
     </Head>
@@ -21,4 +21,6 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default promocao;
+
+

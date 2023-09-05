@@ -1,8 +1,15 @@
 import Footer from "./footer";
+import Head from "next/head";
 
 function Politica_de_Privacidade () {
     return (
       <>
+    <Head>
+    <title>Políticas de Privacidade - Elixir Bioativo</title>
+    <meta name="description" content="Está são as Políticas de Privacidade do nosso site." />
+    <link rel='shortcut icon' href='/Icon.jpg' />
+    </Head>
+
        <div class="container-privacidade-termos">
         <h1>Política de Privacidade</h1>
         <p>A sua privacidade é importante para nós. É política do Protocolo Elixir Bioativo respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site Elixir Bioativo, e outros sites que possuímos e operamos.</p>
