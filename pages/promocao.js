@@ -7,6 +7,7 @@ const Promocao = () => {
     <>
       <Head>
         <title>Elixir Bioativo</title>
+        <meta property="og:url" content="https://elixirbioativo.com/promocao"/>
         <meta name="description" content="Este é o site oficial do Elixir Bioativo" />
         <link rel="shortcut icon" href="/Icon.jpg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
