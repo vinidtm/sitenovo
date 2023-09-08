@@ -42,9 +42,6 @@ const Home = () => {
     <p className='attention'>
     ATENÇÃO: ASSISTA O VÍDEO ANTES QUE SAIA DO AR </p>
     </div>
-    <div className='comments-container'>
-    <Comment />
-    </div>  
     <Footer />
     </div>
     </>
