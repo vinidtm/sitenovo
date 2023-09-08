@@ -5,7 +5,7 @@ function Politica_de_Privacidade () {
     return (
       <>
     <Head>
-    <title>Políticas de Privacidade - Elixir Bioativo</title>
+    <title>Políticas de Privacidade - Saúde Perfeita</title>
     <meta name="description" content="Está são as Políticas de Privacidade do nosso site." />
     <link rel='shortcut icon' href='/Icon.jpg' />
     </Head>

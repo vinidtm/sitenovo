@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
     <Head>
-    <title>Home - Elixir Bioativo</title>
+    <title>Home - Saúde Perfeita</title>
     <meta name="description" content="Está é o site oficial do Elixir Bioativo" />
     <link rel='shortcut icon' href='/Icon.jpg' />
     <script>

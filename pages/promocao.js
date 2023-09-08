@@ -6,7 +6,7 @@ const Promocao = () => {
   return (
     <>
       <Head>
-        <title>Elixir Bioativo</title>
+        <title>Saúde Perfeita</title>
         <meta property="og:url" content="https://saudeperfeitahoje.online/promocao"/>
         <meta name="description" content="Este é o site oficial do Elixir Bioativo" />
         <link rel="shortcut icon" href="/Icon.jpg" />

@@ -6,7 +6,7 @@ const Termos_de_Uso = () => {
   return (
     <> 
     <Head>
-    <title>Termos de Uso - Elixir Bioativo</title>
+    <title>Termos de Uso - Saúde Perfeita</title>
     <meta name="description" content="Esses são os Termos de uso do nosso site." />
     <link rel='shortcut icon' href='/Icon.jpg' />
     </Head>
