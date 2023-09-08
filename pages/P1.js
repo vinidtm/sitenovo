@@ -10,7 +10,6 @@ const P1 = () => {
     <>
     <Head>
     <title>Saúde Perfeita</title>
-    <meta name="description" content="Está é o site oficial do Elixir Bioativo" />
     <link rel='shortcut icon' href='/Icon.jpg' />
     <script>
           {`
