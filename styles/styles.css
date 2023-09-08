@@ -26,12 +26,13 @@ body {
 }
 
 .attention {
-  font-size: 200px;
+  font-size: 20px;
   margin-top: 20px;
   color: #000000;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
+  max-width: 200px;
 }
 
 
