@@ -7,7 +7,7 @@ const Promocao = () => {
     <>
       <Head>
         <title>Elixir Bioativo</title>
-        <meta property="og:url" content="https://elixirbioativo.com/promocao"/>
+        <meta property="og:url" content="https://saudeperfeitahoje.online/promocao"/>
         <meta name="description" content="Este é o site oficial do Elixir Bioativo" />
         <link rel="shortcut icon" href="/Icon.jpg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -775,7 +775,7 @@ const Promocao = () => {
                 </p>
             </div>
             <div className="button-BcKPHv6494987">
-              <a href="https://pay.hotmart.com/N85479244N?off=jjank6uv&checkoutMode=10&sck=back97" target="_self" className="btn button-BcKPHv6494987-element zooming">
+              <a href="https://pay.kiwify.com.br/3YT8pbp" target="_self" className="btn button-BcKPHv6494987-element zooming">
                 QUERO GARANTIR ESSA CONDIÇÃO ESPECIAL
               </a>
             </div>
@@ -798,7 +798,7 @@ const Promocao = () => {
                 </p>
             </div>
             <div className="button-BcKPHv6494987">
-              <a href="https://pay.hotmart.com/N85479244N?off=jjank6uv&checkoutMode=10&sck=back97" target="_self" className="btn button-BcKPHv6494987-element zooming">
+              <a href="https://pay.kiwify.com.br/3YT8pbp" target="_self" className="btn button-BcKPHv6494987-element zooming">
                 QUERO GARANTIR ESSA CONDIÇÃO ESPECIAL
               </a>
             </div>
@@ -813,7 +813,7 @@ const Promocao = () => {
                 </p>
             </div>
             <div className="button-BcKPHv6494987">
-              <a href="https://pay.hotmart.com/N85479244N?off=jjank6uv&checkoutMode=10&sck=back97" target="_self" className="btn button-BcKPHv6494987-element zooming">
+              <a href="https://pay.kiwify.com.br/3YT8pbp" target="_self" className="btn button-BcKPHv6494987-element zooming">
                 QUERO GARANTIR ESSA CONDIÇÃO ESPECIAL
               </a>
             </div>
