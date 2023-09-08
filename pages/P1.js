@@ -27,14 +27,14 @@ const P1 = () => {
             };
           `}
         </script>
-<link rel="preload" href="https://scripts.converteai.net/1db8e03a-c1fc-4fa6-b094-4a5346a615e6/players/64e71e94e1c7560009bcf18c/player.js" as="script"/>
+<link rel="preload" href="https://scripts.converteai.net/1db8e03a-c1fc-4fa6-b094-4a5346a615e6/players/64fb816f909f89000a902842/player.js" as="script"/>
 <link rel="preload" href="https://cdn.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js" as="script"/>
-<link rel="preload" href="https://images.converteai.net/1db8e03a-c1fc-4fa6-b094-4a5346a615e6/players/64e71e94e1c7560009bcf18c/thumbnail.jpg" as="image"/>
-<link rel="preload" href="https://cdn.converteai.net/1db8e03a-c1fc-4fa6-b094-4a5346a615e6/64e6b5497b941e0009cb566a/main.m3u8" as="fetch"/>
+<link rel="preload" href="https://images.converteai.net/1db8e03a-c1fc-4fa6-b094-4a5346a615e6/players/64fb816f909f89000a902842/thumbnail.jpg" as="image"/>
+<link rel="preload" href="https://cdn.converteai.net/1db8e03a-c1fc-4fa6-b094-4a5346a615e6/64a04c94580477000a850ea4/main.m3u8" as="fetch"/>
 <link rel="dns-prefetch" href="https://cdn.converteai.net"/>
 <link rel="dns-prefetch" href="https://scripts.converteai.net"/>
 <link rel="dns-prefetch" href="https://images.converteai.net"/>
-<link rel="dns-prefetch" href="https://api.vturb.com.br"/>   
+<link rel="dns-prefetch" href="https://api.vturb.com.br"/>  
     </Head>
     <div>
     <div className='video-player-container'>
