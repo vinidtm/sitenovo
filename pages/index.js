@@ -2,7 +2,6 @@ import React from 'react';
 import Footer from './footer';
 import Head from 'next/head';
 import Video01 from './video01';
-import Comment from './Comments';
 
 
 const Home = () => {
@@ -13,7 +12,7 @@ const Home = () => {
     <link rel='shortcut icon' href='/Icon.jpg' />
     <script>
           {`
-            var urlBackRedirect = 'http://elixirbioativo/promocao';
+            var urlBackRedirect = 'https://saudeperfeitahoje.online/promocao';
             urlBackRedirect = urlBackRedirect.trim() +
                 (urlBackRedirect.indexOf("?") > 0 ? '&' : '?') +
                 document.location.search.replace('?', '').toString();

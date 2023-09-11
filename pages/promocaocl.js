@@ -17,17 +17,15 @@ const Promocaocl = () => {
         />
             <script>
           {`
-            var urlBackRedirect = 'https://saudeperfeitahoje.online/promocaocl';
-            urlBackRedirect = urlBackRedirect.trim() +
-                (urlBackRedirect.indexOf("?") > 0 ? '&' : '?') +
-                document.location.search.replace('?', '').toString();
-            history.pushState({}, "", location.href);
-            history.pushState({}, "", location.href);
-            window.onpopstate = function () {
-                setTimeout(function () {
-                    location.href = urlBackRedirect;
-                }, 1);
-            };
+            window.onload = function () {
+              var links = document.getElementsByTagName("a");
+              for (var i = 0, n = links.length; i < n; i++) {
+                  var href = links[i].href.trim() +
+                          (links[i].href.indexOf("?") > 0 ? '&' : '?') +
+                          document.location.search.replace('?', '').toString();
+                  links[i].href = href;
+              };
+          };
           `}
         </script>
       </Head>
