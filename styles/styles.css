@@ -467,14 +467,15 @@ tr {
 }
 
 /* Estilos para ações do comentário */
+
+
 .fb-comments-comment-actions like,
 .fb-comments-comment-actions reply {
   font-size: 0.75em;
   color: #4267b2;
   text-decoration: none;
   cursor: pointer;
-  padding-right: 5px;
-  margin-left: -3px;
+  padding-right: 10px;
 }
 
 .fb-comments-comment-actions like.liked {
@@ -605,12 +606,16 @@ tr {
 .icon-like,
 .icon-love {
   display: inline-block;
-  margin-right: 2px;
+  margin-right: 0px;
   cursor: pointer;
 }
 
+
 .qnt {
   margin-left: 5px;
+  margin-right: 10px;
+  margin-top: 1px;
+
 }
 
 .progress-bar {
@@ -1028,3 +1033,83 @@ a.button-BcKPHv6494987-element {
       text-align: center;
   }
 }
+
+
+/*CELULITE*/
+
+.headline-RDjIQY7614219-element h1 {
+  font-size: 2.31vw;
+  text-align: center;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  color: #000000;
+  line-height: 1.1;
+  font-weight: 500;
+  }
+
+  @media (max-width: 1200px) {
+  .headline-RDjIQY7614219-element h1 {
+  font-size: 2.80vw;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+  }
+  }
+
+  @media (max-width: 640px) {
+  .headline-RDjIQY7614219-element h1 {
+  font-size: 5.60vw;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+  text-align: center;
+  }
+  }
+
+  .subheadline-gzGyoB7609074-element h2 {
+    font-size: 1.65vw;
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    color: #000000;
+    line-height: 1.1;
+    font-weight: 400;
+    }
+    @media (max-width: 1200px) {
+    .subheadline-gzGyoB7609074-element h2 {
+    font-size: 2.50vw;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    }
+    }
+    @media (max-width: 640px) {
+    .subheadline-gzGyoB7609074-element h2 {
+    font-size: 4.50vw;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    text-align: center;
+    }
+    }
+
+    .container-vhQCjk9576738-element {
+      border: none;
+      box-shadow: none;
+      background-color: #ffffff;
+      border-radius: auto;
+      padding: 16px 16px 16px 16px;
+      text-align: auto;
+      margin: 2vh auto 2vh auto;
+      box-sizing: border-box;
+      max-width: 100%;
+      }
+      @media (max-width: 1200px) {
+      .container-vhQCjk9576738-element {
+      margin: 1.32vh auto 1.5vh auto;
+      padding: 0.8vh 0.8vw 0.8vh 0.8vw;
+      }
+      }
+      @media (max-width: 640px) {
+      .container-vhQCjk9576738-element {
+      margin: 1vh auto 1vh auto;
+      padding: 1.5vh 1.5vw 1.5vh 1.5vw;
+      
+      }
+      }
