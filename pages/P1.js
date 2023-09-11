@@ -2,7 +2,6 @@ import React from 'react';
 import Footer from './footer';
 import Head from 'next/head';
 import Video01 from './video01';
-import Comment from './Comments';
 
 
 const P1 = () => {
@@ -11,21 +10,6 @@ const P1 = () => {
     <Head>
     <title>Saúde Perfeita</title>
     <link rel='shortcut icon' href='/Icon.jpg' />
-    <script>
-          {`
-            var urlBackRedirect = 'https://saudeperfeitahoje.online/promocao';
-            urlBackRedirect = urlBackRedirect.trim() +
-                (urlBackRedirect.indexOf("?") > 0 ? '&' : '?') +
-                document.location.search.replace('?', '').toString();
-            history.pushState({}, "", location.href);
-            history.pushState({}, "", location.href);
-            window.onpopstate = function () {
-                setTimeout(function () {
-                    location.href = urlBackRedirect;
-                }, 1);
-            };
-          `}
-        </script>
 <link rel="preload" href="https://scripts.converteai.net/1db8e03a-c1fc-4fa6-b094-4a5346a615e6/players/64fb816f909f89000a902842/player.js" as="script"/>
 <link rel="preload" href="https://cdn.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js" as="script"/>
 <link rel="preload" href="https://images.converteai.net/1db8e03a-c1fc-4fa6-b094-4a5346a615e6/players/64fb816f909f89000a902842/thumbnail.jpg" as="image"/>
@@ -41,6 +25,8 @@ const P1 = () => {
     <p className='attention'>
     ATENÇÃO: ASSISTA O VÍDEO ANTES QUE SAIA DO AR </p>
     </div>
+
+    
     <Footer />
     </div>
     </>
