@@ -2,14 +2,14 @@ import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import imagem1 from './fotos/i1.jpg';
 import imagem2 from './fotos/i2.webp';
-import imagem4 from './fotos/i4.jpg';
-import imagem5 from './fotos/i5.jpg';
 import imagem6 from './fotos/i6.jpg';
 import imagem7 from './fotos/i7.jpg';
 import imagem8 from './fotos/i8.jpg';
 import imagem9 from './fotos/i9.jpg';
-import imagem10 from './fotos/i10.jpg';
-import imagem12 from './fotos/i12.jpeg';
+import imagem13 from './fotos/i13.jpg';
+import imagem14 from './fotos/i14.jpg';
+import imagem16 from './fotos/i16.jpg';
+
 const Comentariotm = () => {
   const comments = [
     {

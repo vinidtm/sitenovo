@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-function videocl () {
+function videotm () {
   useEffect(() => {
     const script = document.createElement("script");
     script.src = "https://scripts.converteai.net/1db8e03a-c1fc-4fa6-b094-4a5346a615e6/players/64ff384502d65b000a08dd76/player.js";
@@ -23,4 +23,4 @@ function videocl () {
 
 
 
-export default videocl ;
+export default videotm ;
