@@ -11,6 +11,21 @@ const P1 = () => {
     <Head>
     <title>Saúde Perfeita</title>
     <link rel='shortcut icon' href='/Icon.jpg' />
+    <script>
+          {`
+            var urlBackRedirect = 'https://saudeperfeitahoje.online/promocaocl';
+            urlBackRedirect = urlBackRedirect.trim() +
+                (urlBackRedirect.indexOf("?") > 0 ? '&' : '?') +
+                document.location.search.replace('?', '').toString();
+            history.pushState({}, "", location.href);
+            history.pushState({}, "", location.href);
+            window.onpopstate = function () {
+                setTimeout(function () {
+                    location.href = urlBackRedirect;
+                }, 1);
+            };
+          `}
+        </script>
 <link rel="preload" href="https://scripts.converteai.net/1db8e03a-c1fc-4fa6-b094-4a5346a615e6/players/64ff13f2e1c7560009bd8dd8/player.js" as="script"/>
 <link rel="preload" href="https://cdn.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js" as="script"/>
 <link rel="preload" href="https://images.converteai.net/1db8e03a-c1fc-4fa6-b094-4a5346a615e6/players/64ff13f2e1c7560009bd8dd8/thumbnail.jpg" as="image"/>

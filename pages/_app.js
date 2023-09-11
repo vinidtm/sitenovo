@@ -35,23 +35,7 @@ export default function MyApp({ Component, pageProps }) {
                 });
               `,
             }}
-          />
-          <script>
-          {`
-            var urlBackRedirect = 'https://saudeperfeitahoje.online/promocao';
-            urlBackRedirect = urlBackRedirect.trim() +
-                (urlBackRedirect.indexOf("?") > 0 ? '&' : '?') +
-                document.location.search.replace('?', '').toString();
-            history.pushState({}, "", location.href);
-            history.pushState({}, "", location.href);
-            window.onpopstate = function () {
-                setTimeout(function () {
-                    location.href = urlBackRedirect;
-                }, 1);
-            };
-          `}
-        </script>
-    
+          />    
     </Head>
     <Component {...pageProps}/>
         {/* Google Tag Manager (noscript) */}

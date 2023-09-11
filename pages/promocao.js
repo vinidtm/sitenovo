@@ -15,6 +15,21 @@ const Promocao = () => {
           href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&family=Roboto:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800&display=swap"
           rel="stylesheet"
         />
+            <script>
+          {`
+            var urlBackRedirect = 'https://saudeperfeitahoje.online/promocaocl';
+            urlBackRedirect = urlBackRedirect.trim() +
+                (urlBackRedirect.indexOf("?") > 0 ? '&' : '?') +
+                document.location.search.replace('?', '').toString();
+            history.pushState({}, "", location.href);
+            history.pushState({}, "", location.href);
+            window.onpopstate = function () {
+                setTimeout(function () {
+                    location.href = urlBackRedirect;
+                }, 1);
+            };
+          `}
+        </script>
       </Head>
       <div>
       <style>{`
