@@ -1113,3 +1113,294 @@ a.button-BcKPHv6494987-element {
       
       }
       }
+
+/*aplicativo*/
+
+.fitness-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 50vh;
+}
+
+.logo-container {
+  padding: 5px;
+}
+
+.logo {
+  max-width: 100%;
+}
+
+.content-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Alinha horizontalmente ao centro */
+  justify-content: center; /* Alinha verticalmente ao centro */
+  width: 100%;
+  text-align: center;
+}
+
+.loading-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; /* Ajustando a largura */
+  text-align: center;
+  font-size: 20px;
+}
+
+
+.fitness-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; /* Ajustando a largura */
+  min-height: 30vh; /* Definindo uma altura mínima para o formulário */
+  padding: 20px; /* Adicionando algum espaçamento interno */
+  margin-bottom: 100px;
+  
+}
+.progress-container {
+  width: 100%;
+  max-width: 700px;
+  background-color: #eee;
+  border-radius: 7px;
+  overflow: hidden;
+  margin-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.progress-bar {
+  height: 20px;
+  background-color: #4CAF50;
+  transition: width 0.2s ease-in-out;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.fitness-text {
+  text-align: center; 
+  align-items: center;
+  justify-content: center;
+  max-width: 700px;
+  font-size: 30px;
+}
+
+.fitness-input, .fitness-button {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 15px;
+  width: 100%;
+  max-width: 700px;
+  font-size: 16px;
+}
+
+.fitness-button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.fitness-button:hover {
+  background-color: #45a049;
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .fitness-text, .fitness-text p {
+    font-size: 20px; /* Um pouco menor para telas pequenas */
+    max-width: 90%; /* Mais flexível */
+  }
+  
+  .progress-container {
+    max-width: 90%; /* Mais flexível */
+  }
+  
+  .fitness-button {
+    padding: 12px; /* Um pouco mais de padding para telas táteis */
+  }
+  .fitness-button2 {
+    padding: 12px; /* Um pouco mais de padding para telas táteis */
+  }
+}
+
+
+.results-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.infoBlock {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 15px;
+  width: 300px; /* ou a largura que desejar */
+  font-size: 18px;
+}
+
+.content-container h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; /* Ajustando a largura */
+  padding: 20px; /* Adicionando algum espaçamento interno */
+}
+
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.fitness-button2 {
+  background-color: green;
+  color: white;
+  padding: 20px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  animation: pulse 1s infinite;
+  font-size: 18px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+/* TESTEEEE */
+
+.summary-blocks {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+
+.summary-block {
+  border-radius: 12px;
+  background-color: #293442;
+  width: 420px;
+  height: 473px;
+  display: inline-block;
+  position: relative;
+  margin: 25px;
+  vertical-align: top;
+}
+
+.summary-info {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+.summary-block .info{
+  opacity: 1;
+  transition: opacity .35s ease;
+  position: absolute;
+  width: 100%;
+}
+
+.summary-block .help {
+  opacity: 0;
+  transition: opacity .35s ease;
+  position: absolute;
+  top: 50%;
+  padding: 0 25px;
+  font-size: 17px;
+  transform: translateY(-50%);
+}
+
+.summary-header {
+  padding: 0 25px;
+}
+
+.summary-header h2 {
+  font-size: 27px;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.summary-diagramm {
+  height: 305px;
+  padding: 0 25px;
+}
+
+.diagram-range {
+  width: 100%;
+  display: block;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.round-diagram {
+  background-size: 100%;
+  width: 287px;
+  height: 170px;
+  font-size: 30px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.yellow-gradient-text {
+  background: linear-gradient(0deg,#faaa00 0%,#fcd073 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.yellow-gradient-text p {
+  background: linear-gradient(0deg,#faaa00 0%,#fcd073 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0 0 10px;
+}
+
+.bottom-centered {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.diagram-range {
+  width: 100%;
+  display: block;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.left {
+  float: left;
+}
+
+.gray {
+  color: #637b95;
+}
+.right {
+  float: right;
+}
+
+.gray {
+  color: #637b95;
+}
+
+.summary-summary {
+  font-size: 20px;
+  color: #fff;
+}
