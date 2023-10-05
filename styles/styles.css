@@ -1359,14 +1359,12 @@ a.button-BcKPHv6494987-element {
 
 .yellow-gradient-text {
   background: linear-gradient(0deg,#faaa00 0%,#fcd073 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+   -webkit-text-fill-color: transparent;
 }
 
 .yellow-gradient-text p {
   background: linear-gradient(0deg,#faaa00 0%,#fcd073 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+   -webkit-text-fill-color: transparent;
   margin: 0 0 10px;
 }
 
