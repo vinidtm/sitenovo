@@ -2,7 +2,7 @@ import React from 'react';
 import Footer from './footer';
 import Head from 'next/head';
 import Comentariotm from './comentariotm';
-import Videotm from './videotm';
+import Videopv1 from './videopv1';
 
 const P1 = () => {
   return (
@@ -37,7 +37,7 @@ const P1 = () => {
     </Head>
     <div>
     <div className='video-player-container'>
-    <Videotm/>
+    <Videopv1/>
     </div>
     <Comentariotm/>
     <Footer />
