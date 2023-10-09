@@ -5,12 +5,11 @@ import imagem2 from './fotos/i2.webp';
 import imagem6 from './fotos/i6.jpg';
 import imagem7 from './fotos/i7.jpg';
 import imagem8 from './fotos/i8.jpg';
-import imagem9 from './fotos/i9.jpg';
 import imagem13 from './fotos/i13.jpg';
 import imagem14 from './fotos/i14.jpg';
 import imagem16 from './fotos/i16.jpg';
 
-const Comentariotm = () => {
+const Comentariopv1 = () => {
   const comments = [
     {
       id: '7',
@@ -23,7 +22,7 @@ const Comentariotm = () => {
             id: '2',
             image: imagem14,
             name: 'Marcia Ferreira Dos Santos',
-            text: 'Siiimm, quando chega no fim do vídeo libera um botão para você ter acesso a seu protocolo de emagrecimento. Fiquei em choque! Perdi 13kg kkkkkk',
+            text: 'Siiimm, quando chega no fim do vídeo libera um botão para você ter acesso a esse aplicativo de emagrecimento maravilhosoooo. Fiquei em choque! Perdi 13kg kkkkkk',
             likes: 27,
           },
       ],
@@ -208,4 +207,4 @@ const Comentariotm = () => {
   );
 };
 
-export default Comentariotm;
+export default Comentariopv1;

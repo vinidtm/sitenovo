@@ -1,8 +1,8 @@
 import React from 'react';
 import Footer from './footer';
 import Head from 'next/head';
-import Comentariotm from './comentariotm';
 import Videopv1 from './videopv1';
+import Comentariopv1 from './comentariopv1';
 
 const P1 = () => {
   return (
@@ -39,7 +39,7 @@ const P1 = () => {
     <div className='video-player-container'>
     <Videopv1/>
     </div>
-    <Comentariotm/>
+    <Comentariopv1/>
     <Footer />
     </div>
     </>
