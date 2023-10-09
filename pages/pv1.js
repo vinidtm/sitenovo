@@ -12,7 +12,7 @@ const P1 = () => {
     <link rel='shortcut icon' href='/Icon.jpg' />
     <script>
           {`
-            var urlBackRedirect = 'https://saudeperfeitahoje.online/promocaotm';
+            var urlBackRedirect = 'https://saudeperfeitahoje.online/promocaopv1';
             urlBackRedirect = urlBackRedirect.trim() +
                 (urlBackRedirect.indexOf("?") > 0 ? '&' : '?') +
                 document.location.search.replace('?', '').toString();
