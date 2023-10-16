@@ -787,7 +787,7 @@ const Promocaopv1 = () => {
                 </p>
             </div>
             <div className="button-BcKPHv6494987">
-              <a href="https://pay.kiwify.com.br/dEqZTTe" target="_self" className="btn button-BcKPHv6494987-element zooming">
+              <a href="https://pay.kiwify.com.br/cVO923j" target="_self" className="btn button-BcKPHv6494987-element zooming">
                 QUERO GARANTIR ESSA CONDIÇÃO ESPECIAL
               </a>
             </div>
@@ -810,7 +810,7 @@ const Promocaopv1 = () => {
                 </p>
             </div>
             <div className="button-BcKPHv6494987">
-              <a href="https://pay.kiwify.com.br/dEqZTTe" target="_self" className="btn button-BcKPHv6494987-element zooming">
+              <a href="https://pay.kiwify.com.br/cVO923j" target="_self" className="btn button-BcKPHv6494987-element zooming">
                 QUERO GARANTIR ESSA CONDIÇÃO ESPECIAL
               </a>
             </div>
@@ -825,7 +825,7 @@ const Promocaopv1 = () => {
                 </p>
             </div>
             <div className="button-BcKPHv6494987">
-              <a href="https://pay.kiwify.com.br/dEqZTTe" target="_self" className="btn button-BcKPHv6494987-element zooming">
+              <a href="https://pay.kiwify.com.br/cVO923j" target="_self" className="btn button-BcKPHv6494987-element zooming">
                 QUERO GARANTIR ESSA CONDIÇÃO ESPECIAL
               </a>
             </div>
