@@ -22,7 +22,7 @@ const Comentariopv1 = () => {
             id: '2',
             image: imagem14,
             name: 'Marcia Ferreira Dos Santos',
-            text: 'Siiimm, quando chega no fim do vídeo libera um botão para você ter acesso a esse aplicativo de emagrecimento maravilhosoooo. Fiquei em choque! Perdi 13kg kkkkkk',
+            text: 'Siiimm, quando chega no fim do vídeo libera um botão para você ter acesso ao aplicativo. Fiquei em choque! Perdi 13kg kkkkkk',
             likes: 27,
           },
       ],
