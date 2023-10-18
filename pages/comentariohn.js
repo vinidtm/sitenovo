@@ -14,62 +14,62 @@ const Comentariohn = () => {
     {
       id: '7',
       image: imagem6,
-      name: 'Isabela Vargas',
-      text: 'Gente, alguém sabe se isso é vdd msm???',
-      likes: 110,
+      name: 'Giovana Souza Carvalho',
+      text: 'Alguém sabe se é realmente verdade?',
+      likes: 179,
       replies: [
         {
             id: '2',
             image: imagem14,
-            name: 'Marcia Ferreira Dos Santos',
-            text: 'Siiimm, quando chega no fim do vídeo libera um botão para você ter acesso ao aplicativo. Fiquei em choque! Perdi 13kg kkkkkk',
-            likes: 27,
+            name: 'Rafaela Gonçalves',
+            text: 'Sim amiga, quando o botão aparece é pra vc ter acesso ao APP, e é incrível, consegui perder 12 quilos!!',
+            likes: 38,
           },
       ],
     },
     {
       id: '9',
       image: imagem7,
-      name: 'Camila Sutra',
-      text: 'Comecei a 2 meses e perdi 10kg! to super Feliz',
-      likes: 32,
+      name: 'Manuela Lima Cardoso',
+      text: 'Faz quase 2 meses que comecei e já perdi 16 kg!',
+      likes: 46,
       replies: [
         {
             id: '1',
             image: imagem13,
-            name: 'Fernanda Da Silva Leme',
-            text: 'Até que enfim algo que preste! Adquiri pra minha mãe emagrecer e ela ja perdeu 10kg em 1 mês',
-            likes: 50,
+            name: 'Bianca Gonçalves',
+            text: 'Finalmente algo que funciona. É tão incrível que até minha mãe conseguiu ter resultado, ela já queimou 9kg.',
+            likes: 71,
           },
           {
             id: '103',
             image: imagem1,
-            name: 'Joana Maria Oliveira',
-            text: 'Alguem já fez? Achei interessante mas to com medo',
+            name: 'Leila Alves Barros',
+            text: 'Mais alguém teve resultados? Eu procurei e achei essas pesquisas que a Fernanda fala, e queria saber o resultado de quem já fez.',
             likes: 77,
           },
           {
             id: '4',
             image: imagem16,
-            name: 'Sofia Pietra',
-            text: 'Algumas amigas aqui fizeram e deu certo.. vou começar hoje!',
-            likes: 112,
+            name: 'Carolina Araujo Castro',
+            text: 'Minhas amigas fizeram e tiveram ótimos resultados, eu começo hoje!',
+            likes: 63,
           },
           {
             id: '322',
             image: imagem2,
-            name: 'Cristina Santos',
-            text: 'Estou usando tem 9 dias e já perdi 4kg!',
-            likes: 41,
+            name: 'Rafaela Azevedo',
+            text: 'Eu to fazendo faz 2 semanas e já perdi 7 quilo',
+            likes: 52,
           },
       ],
     },
     {
       id: '15',
       image: imagem8,
-      name: 'Maria Fernanda',
-      text: 'Mulheeeeeer, isso é inacreditável kkkk nunca emagreci tão rápido kkkk aproveitem pessoal',
-      likes: 270,
+      name: 'Beatrice Rodrigues',
+      text: 'Meninaa, que coisa mais incrível. Finalmente alguém que explica o verdadeiro problema e trás a solução. Nunca tive resultado tão rápido e fácil, eu estou indicando pra todo mundo que conheço.',
+      likes: 324,
       replies: [],
     },
   ];
@@ -79,7 +79,7 @@ const Comentariohn = () => {
       <div className='container'>
         <div className='fb-comments'>
           <div className='fb-comments-header'>
-            <span> 7 de 452 comentários</span>
+            <span> 8 de 734 comentários</span>
           </div>
           <section className='fb-comments' id='2'>
             {comments.slice(0).map((comment) => (
