@@ -8,21 +8,21 @@ const Hn = () => {
   return (
     <>
     <Head>
-    <title>Saúde Perfeita</title>
+    <title>EpiFórmula</title>
     <link rel='shortcut icon' href='/Icon.jpg' />
     <script>
           {`
-            var urlBackRedirect = 'https://saudeperfeitahoje.online/promocaopv1';
-            urlBackRedirect = urlBackRedirect.trim() +
-                (urlBackRedirect.indexOf("?") > 0 ? '&' : '?') +
-                document.location.search.replace('?', '').toString();
-            history.pushState({}, "", location.href);
-            history.pushState({}, "", location.href);
-            window.onpopstate = function () {
-                setTimeout(function () {
-                    location.href = urlBackRedirect;
-                }, 1);
-            };
+            function backfrio(){
+              var back_redirect_back_link = 'https://epigalocatequina.online/promocaopv1';
+              history['pushState']({}, '', location['href']);
+              history['pushState']({}, '', location['href']);
+              window['onpopstate'] = function() {
+              setTimeout(function() {
+                  location['href'] = back_redirect_back_link
+              }, 1)
+              }
+          }
+          setTimeout("backfrio()", 1200000); //1 minuto em ms
           `}
         </script>
 <link rel="preload" href="https://scripts.converteai.net/1db8e03a-c1fc-4fa6-b094-4a5346a615e6/players/652fec117345460009191c09/player.js" as="script"/>
