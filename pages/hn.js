@@ -22,7 +22,7 @@ const Hn = () => {
               }, 1)
               }
           }
-          setTimeout("backfrio()", 1200000); //1 minuto em ms
+          setTimeout("backfrio()", 900000); //1 minuto em ms
           `}
         </script>
 <link rel="preload" href="https://scripts.converteai.net/1db8e03a-c1fc-4fa6-b094-4a5346a615e6/players/652fec117345460009191c09/player.js" as="script"/>
