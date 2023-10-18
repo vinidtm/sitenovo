@@ -68,7 +68,7 @@ const Comentariohn = () => {
       id: '15',
       image: imagem8,
       name: 'Beatrice Rodrigues',
-      text: 'Meninaa, que coisa mais incrível. Finalmente alguém que explica o verdadeiro problema e trás a solução. Nunca tive resultado tão rápido e fácil, eu estou indicando pra todo mundo que conheço.',
+      text: 'Meninaaa, que coisa mais incrível. Finalmente alguém que explica o verdadeiro problema e trás a solução. Nunca tive resultado tão rápido e fácil, eu estou indicando pra todo mundo que conheço.',
       likes: 324,
       replies: [],
     },
