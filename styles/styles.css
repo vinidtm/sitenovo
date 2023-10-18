@@ -1404,39 +1404,3 @@ a.button-BcKPHv6494987-element {
   color: #fff;
 }
 
-/* components/AoVivoBadge.css */
-
-.aovivo-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 30px; /* Adicione margem superior */
-  margin-bottom: 0px; /* Adicione margem inferior */
-  font-size: 14px;
-}
-
-.aovivo-badge {
-  background-color: #C4170C;
-  color: white;
-  padding: 5px 10px;
-  font-weight: bold;
-  border-radius: 5px;
-}
-
-.visible {
-  animation: blink 1s linear infinite;
-}
-
-@keyframes blink {
-  0%, 100% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-}
-
-
-.cor-fundo-hn {
-  background-color: #F9F9F9;
-}
