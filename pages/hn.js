@@ -1,8 +1,9 @@
 import React from 'react';
 import Footer from './footer';
 import Head from 'next/head';
-import Comentariopv1 from './comentariopv1';
+import Comentariohn from './comentariohn';
 import Videohn from './videohn';
+import AoVivoBadge from './AoVivoBadge';
 
 const Hn = () => {
   return (
@@ -35,10 +36,13 @@ const Hn = () => {
 <link rel="dns-prefetch" href="https://api.vturb.com.br"/>
     </Head>
     <div>
+    <div className='cor-fundo-hn'>
+    <AoVivoBadge/>
     <div className='video-player-container'>
     <Videohn/>
     </div>
-    <Comentariopv1/>
+    <Comentariohn/>
+    </div>    
     <Footer />
     </div>
     </>
