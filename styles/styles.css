@@ -256,6 +256,12 @@ p {
     max-width: 100%;
     padding: 10px;
   }
+
+  .video-player-container-tigre {
+    max-width: 100%;
+    padding: 0px;
+  }
+
   .headline-container {
     max-width: 100%;
     padding: 10px;
@@ -283,6 +289,14 @@ p {
 .video-player-container {
   max-width: 900px;
   margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 0px;
+}
+
+.video-player-container-tigre {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 300px;
   padding-top: 40px;
   padding-bottom: 0px;
 }
