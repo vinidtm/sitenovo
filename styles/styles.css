@@ -296,8 +296,7 @@ p {
 .video-player-container-tigre {
   max-width: 900px;
   margin: 0 auto;
-  margin-top: 300px;
-  padding-top: 40px;
+  margin-top: 30px;
   padding-bottom: 0px;
 }
 
@@ -1418,3 +1417,24 @@ a.button-BcKPHv6494987-element {
   color: #fff;
 }
 
+
+.span-btn {
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased; 
+  text-align: center;
+  margin: 0; 
+  border: 0; 
+  font: inherit;
+  vertical-align: baseline;
+  display: block; 
+  position: relative; 
+  z-index: 1; 
+  padding: 0 15px; 
+  white-space: normal; 
+  font-size: 25px;
+  color: #ffffff; 
+  font-family: Oswald; 
+  font-weight: bold; 
+  text-shadow: #000000 0px 1px 0px;
+  text-decoration: none;
+}
