@@ -17,6 +17,9 @@ body {
   min-height: 100vh;
   position: relative;
   padding-bottom: 200px;
+  display: flex;
+  justify-content: center; /* Centraliza o conteúdo horizontalmente na página */
+  align-items: center; /* Centraliza o conteúdo verticalmente na página */
 }
 
 .li {
@@ -291,6 +294,52 @@ p {
   margin: 0 auto;
   padding-top: 40px;
   padding-bottom: 0px;
+}
+/* Adicione isso ao seu arquivo de estilos CSS */
+.doutor {
+  display: flex;
+  align-items: center; /* Alinha os itens verticalmente ao centro */
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.texto-doutor {
+  max-width: 600px; /* Defina a largura máxima para o bloco de texto */
+  text-align: left; /* Alinha o texto à esquerda */
+}
+
+.texto-doutor h2 {
+  font-size: 26px; /* Tamanho da fonte para o nome do Dr. Juliana Marques */
+  margin-bottom: 8px; /* Espaço entre o nome e o restante do texto */
+}
+.texto-doutor p {
+  font-size: 19px; /* Tamanho da fonte para o nome do Dr. Juliana Marques */
+  margin-bottom: 8px; /* Espaço entre o nome e o restante do texto */
+}
+@media (max-width: 600px) {
+  .doutor {
+    flex-direction: column; /* Mantém a direção da coluna para dispositivos móveis */
+    text-align: center; /* Centraliza o texto */
+  }
+
+  .texto-doutor {
+    max-width: none; /* Remove a largura máxima para ocupar toda a largura da tela */
+    margin-top: 10px; /* Adiciona espaço acima do bloco de texto */
+    padding: 10px; /* Adiciona um espaçamento interno à borda */
+  }
+
+  .texto-doutor h2{
+    font-size: 24px;
+  }
+  .texto-doutor p{
+    font-size: 17px;
+  }
+  /* Diminui o tamanho da imagem no celular */
+  .doutor img {
+    width: 80%; /* Ajuste o valor conforme necessário */
+    max-width: 223px; /* Define um tamanho máximo para a imagem */
+    max-height: 223px;
+  }
 }
 
 .video-player-container-tigre {

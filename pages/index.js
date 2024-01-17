@@ -2,6 +2,8 @@ import React from 'react';
 import Footer from './footer';
 import Head from 'next/head';
 import Video01 from './video01';
+import doutorfoto from './fotos/DrMarcoscirculo.png';
+import Image from 'next/image';
 
 
 const Home = () => {
@@ -37,9 +39,19 @@ const Home = () => {
     <div>
     <div className='video-player-container'>
     <Video01/>
-    <p className='attention'>
-    ATENÇÃO: ASSISTA O VÍDEO ANTES QUE SAIA DO AR </p>
     </div>
+    <div className='doutor'>
+  <Image
+    src={doutorfoto}
+    alt='Dr. Marcos'
+    width={250}
+    height={250}
+  />
+  <div className='texto-doutor'>
+    <h2>Dr. Marcos Camargo </h2>
+    <p> Cientista e pesquisador especialista no emagrecimento natural a mais de 10 anos, profissional dedicado e que já transformou a vida de milhares de pessoas que sofriam constantemente para perder peso. </p>
+    <p> Com uma historia pessoal de superação enfrentando e vencendo sua própria luta contra o sobrepeso, ele compreende profundamente a batalha contra a balança e divulga como passar por isso de forma natural e saudável.</p>   </div>
+        </div>
     <Footer />
     </div>
     </>
