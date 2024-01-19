@@ -299,8 +299,8 @@ p {
 .doutor {
   display: flex;
   align-items: center; /* Alinha os itens verticalmente ao centro */
-  margin-bottom: 100px;
-  margin-top: 50px;
+  margin-bottom: 150px;
+  margin-top: 75px;
 }
 
 .texto-doutor {

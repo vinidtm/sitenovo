@@ -14,7 +14,7 @@ const Home = () => {
     <link rel='shortcut icon' href='/Icon.jpg' />
     <script>
           {`
-            var urlBackRedirect = 'https://saudeperfeitahoje.online/promocao';
+            var urlBackRedirect = 'https://epigalocatequina.online//promocao';
             urlBackRedirect = urlBackRedirect.trim() +
                 (urlBackRedirect.indexOf("?") > 0 ? '&' : '?') +
                 document.location.search.replace('?', '').toString();
@@ -50,7 +50,7 @@ const Home = () => {
   <div className='texto-doutor'>
     <h2>Dr. Marcos Camargo </h2>
     <p> Cientista e pesquisador especialista no emagrecimento natural a mais de 10 anos, profissional dedicado e que já transformou a vida de milhares de pessoas que sofriam constantemente para perder peso. </p>
-    <p> Com uma historia pessoal de superação enfrentando e vencendo sua própria luta contra o sobrepeso, ele compreende profundamente a batalha contra a balança e divulga como passar por isso de forma natural e saudável.</p>   </div>
+    <p> Com uma historia pessoal de superação enfrentando e vencendo sua própria luta contra o sobrepeso, ele compreende profundamente a batalha contra a balança e divulga como passar por isso de forma natural e saudável com uma simples receita caseira!</p>   </div>
         </div>
     <Footer />
     </div>
