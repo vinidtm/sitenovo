@@ -11,7 +11,7 @@ const Home = () => {
     <>
     <Head>
     <title>Epigalocatequina - Fórmula A.M.B</title>
-    <link rel='shortcut icon' href='/Icon.jpg' />
+    <link rel='shortcut icon' href='/Icon.png' />
     <script>
           {`
             var urlBackRedirect = 'https://epigalocatequina.online//promocao';

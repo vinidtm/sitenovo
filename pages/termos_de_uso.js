@@ -8,7 +8,7 @@ const Termos_de_Uso = () => {
     <Head>
     <title>Termos de Uso - Saúde Perfeita</title>
     <meta name="description" content="Esses são os Termos de uso do nosso site." />
-    <link rel='shortcut icon' href='/Icon.jpg' />
+    <link rel='shortcut icon' href='/Icon.png' />
     </Head>
       <div>
       <div class="container-privacidade-termos">

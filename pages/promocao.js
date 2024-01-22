@@ -8,7 +8,7 @@ const Promocao = () => {
       <Head>
         <title>Promoção exclusiva</title>
         <meta property="og:url" content="https://epigalocatequina.online/promocao"/>
-        <link rel="shortcut icon" href="/Icon.jpg" />
+        <link rel="shortcut icon" href="/Icon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
         <link
