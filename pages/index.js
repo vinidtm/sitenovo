@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <>
     <Head>
-    <title>Home - Saúde Perfeita</title>
+    <title>Epigalocatequina - Fórmula A.M.B</title>
     <link rel='shortcut icon' href='/Icon.jpg' />
     <script>
           {`

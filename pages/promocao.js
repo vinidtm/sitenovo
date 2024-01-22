@@ -6,7 +6,7 @@ const Promocao = () => {
   return (
     <>
       <Head>
-        <title>Saúde Perfeita</title>
+        <title>Promoção exclusiva</title>
         <meta property="og:url" content="https://epigalocatequina.online/promocao"/>
         <link rel="shortcut icon" href="/Icon.jpg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
