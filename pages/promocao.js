@@ -2,12 +2,12 @@ import React from 'react';
 import Head from 'next/head';
 import Footer from './footer';
 
-const Promocaopv1 = () => {
+const Promocao = () => {
   return (
     <>
       <Head>
         <title>Saúde Perfeita</title>
-        <meta property="og:url" content="https://saudeperfeitahoje.online/promocaotm"/>
+        <meta property="og:url" content="https://epigalocatequina.online/promocao"/>
         <link rel="shortcut icon" href="/Icon.jpg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
@@ -760,7 +760,7 @@ const Promocaopv1 = () => {
             <div>
                 <p>
                   Gostaria de receber um&nbsp;<u>desconto imperdível</u>&nbsp;para ter acesso às&nbsp;
-                  <span style={{ color: '#ff0000' }}><b>EpiFórmula</b></span>&nbsp;e descobrir as receitas secretas capazes de fazer seu metabolismo acelerar e queimar esse peso que você tanto sonha em perder?
+                  <span style={{ color: '#ff0000' }}><b>Fórmula A.M.B</b></span>&nbsp;e descobrir as receitas secretas capazes de fazer seu metabolismo acelerar e queimar esse peso que você tanto sonha em perder?
                 </p>
             </div>
             <div>
@@ -768,7 +768,7 @@ const Promocaopv1 = () => {
                   <b>Então dá só uma olhada...</b><br /><br />
                   <span style={{ fontStyle: 'italic' }}>Provavelmente você só verá esta página&nbsp;<b>UMA ÚNICA VEZ</b>&nbsp;na sua vida..</span><br /><br />
                   Você foi uma das mulheres&nbsp;<b>SELECIONADAS</b>&nbsp;para ter acesso às&nbsp;
-                  <span style={{ color: '#ff0000' }}><b>EpiFórmula</b></span>&nbsp;com uma oportunidade única e exclusiva!<br /><br />
+                  <span style={{ color: '#ff0000' }}><b>Fórmula A.M.B</b></span>&nbsp;com uma oportunidade única e exclusiva!<br /><br />
                   A cada 100 pessoas que caem na nossa página, sorteamos&nbsp;<b>UMA</b>&nbsp;para ganhar um&nbsp;<b>DESCONTO EXCLUSIVO</b>...<br /><br />
                   <span style={{ fontStyle: 'italic' }}>Este desconto só é válido agora, neste exato segundo!</span><br /><br />
                   Você tem a oportunidade agora mesmo de&nbsp;<b>finalmente conseguir emagrecer</b>...
@@ -778,7 +778,7 @@ const Promocaopv1 = () => {
                 <p>
                   <b>Antes por&nbsp;<span style={{ color: '#ff0000' }}><del>R$ 147,00</del></span>, agora por apenas&nbsp;<span style={{ backgroundColor: '#ffff00' }}>R$ 97,00</span></b><br /><br />
                   <b>34% DE DESCONTO (<span style={{ backgroundColor: '#ffff00' }}>-R$50.00</span>)</b>&nbsp;para você ter acesso às&nbsp;
-                  <span style={{ color: '#ff0000' }}><b>EpiFórmula</b></span>!!
+                  <span style={{ color: '#ff0000' }}><b>Fórmula A.M.B</b></span>!!
                 </p>
             </div>
             <div>
@@ -787,7 +787,7 @@ const Promocaopv1 = () => {
                 </p>
             </div>
             <div className="button-BcKPHv6494987">
-              <a href="https://pay.kiwify.com.br/cVO923j" target="_self" className="btn button-BcKPHv6494987-element zooming">
+              <a href="https://pay.kiwify.com.br/3YT8pbp" target="_self" className="btn button-BcKPHv6494987-element zooming">
                 QUERO GARANTIR ESSA CONDIÇÃO ESPECIAL
               </a>
             </div>
@@ -798,7 +798,7 @@ const Promocaopv1 = () => {
                   <span style={{ fontStyle: 'italic' }}>...que a sua saúde estivesse melhor e sem risco de ter que correr para o hospital...</span><br /><br />
                   <span style={{ fontStyle: 'italic' }}>...que as pessoas ao seu redor te elogiassem pela sua beleza e pelo seu corpo magro?</span><br /><br />
                   <b>ENTÃO...</b><br /><br />
-                  O&nbsp;<span style={{ color: '#ff0000' }}><b>EpiFórmula</b></span>&nbsp;é para você,&nbsp;<b>MULHER</b>...<br /><br />
+                  O&nbsp;<span style={{ color: '#ff0000' }}><b>Fórmula A.M.B</b></span>&nbsp;é para você,&nbsp;<b>MULHER</b>...<br /><br />
                   Um programa criado por um dos maiores&nbsp;<b>cientistas</b>&nbsp;especializados em emagrecimento do mundo, onde você vai descobrir as fórmulas caseiras secretas feitas com&nbsp;
                   <span style={{ color: '#ff0000' }}><b>INGREDIENTES NATURAIS</b></span>..<br /><br />
                   A única capaz de fazer você&nbsp;<u><b>emagrecer de forma natural</b></u>...<br /><br />
@@ -806,11 +806,11 @@ const Promocaopv1 = () => {
                   <b>A DECISÃO ESTÁ NAS SUAS MÃOS!</b>&nbsp;<br /><br />
                   Decisão que pode salvá-la da terrível obesidade que está assolando a sua geração...<br /><br />
                   Basta CLICAR NO BOTÃO ABAIXO agora mesmo e seja bem-vinda às&nbsp;
-                  <span style={{ color: '#ff0000' }}><b>EpiFórmula</b></span>
+                  <span style={{ color: '#ff0000' }}><b>Fórmula A.M.B</b></span>
                 </p>
             </div>
             <div className="button-BcKPHv6494987">
-              <a href="https://pay.kiwify.com.br/cVO923j" target="_self" className="btn button-BcKPHv6494987-element zooming">
+              <a href="https://pay.kiwify.com.br/3YT8pbp" target="_self" className="btn button-BcKPHv6494987-element zooming">
                 QUERO GARANTIR ESSA CONDIÇÃO ESPECIAL
               </a>
             </div>
@@ -819,25 +819,25 @@ const Promocaopv1 = () => {
                   <span style={{ backgroundColor: '#ffff00' }}><b>AVISO:</b></span><br /><br />
                   Você está coberta por nossa&nbsp;<b>GARANTIA BLINDADA</b>...<br /><br />
                   Se o programa não gerar resultados rápidos e efetivos na sua vida, ou se, por qualquer motivo, você não gostar das&nbsp;
-                  <span style={{ color: '#ff0000' }}><b>EpiFórmula</b></span>...<br /><br />
+                  <span style={{ color: '#ff0000' }}><b>Fórmula A.M.B</b></span>...<br /><br />
                   Basta entrar em contato com nossa equipe, por e-mail ou whatsapp, que você receberá 100% do valor investido de forma rápida e sem nenhuma burocracia!<br /><br />
                   Aproveite nosso desconto especial de&nbsp;<span style={{ color: '#ff0000' }}><del>R$147,00</del></span>… agora por apenas&nbsp;<span style={{ backgroundColor: '#ffff00' }}><b>R$ 97,00</b></span><br />
                 </p>
             </div>
             <div className="button-BcKPHv6494987">
-              <a href="https://pay.kiwify.com.br/cVO923j" target="_self" className="btn button-BcKPHv6494987-element zooming">
+              <a href="https://pay.kiwify.com.br/3YT8pbp" target="_self" className="btn button-BcKPHv6494987-element zooming">
                 QUERO GARANTIR ESSA CONDIÇÃO ESPECIAL
               </a>
             </div>
             <div>
                 <p>
                   Teste durante 30 dias&nbsp;<b>sem nenhum compromisso</b>&nbsp;e veja o poder de tudo o que você vai aprender no&nbsp;
-                  <span style={{ color: '#ff0000' }}><b>EpiFórmula</b></span>...<br /><br />
+                  <span style={{ color: '#ff0000' }}><b>Fórmula A.M.B</b></span>...<br /><br />
                   <b>Está bem, como garanto minha condição especial?</b><br /><br />
                   <span style={{ backgroundColor: '#ffff00' }}><b>Passo 1</b></span>: Clique no botão verde acima e preencha seus dados nos campos corretos<br /><br />
                   <span style={{ backgroundColor: '#ffff00' }}><b>Passo 2</b></span>: Quando concluir a compra, você receberá o acesso pelo email cadastrado<br /><br />
-                  <span style={{ backgroundColor: '#ffff00' }}><b>Passo 3</b></span>: Acesse a EpiFórmula e transforme a sua vida<br /><br />
-                  <span style={{ fontStyle: 'italic' }}>Atenciosamente, Equipe EpiFórmula...</span><br />
+                  <span style={{ backgroundColor: '#ffff00' }}><b>Passo 3</b></span>: Acesse a Fórmula A.M.B e transforme a sua vida<br /><br />
+                  <span style={{ fontStyle: 'italic' }}>Atenciosamente, Equipe Fórmula A.M.B...</span><br />
                 </p>
               </div>
         </div>
@@ -848,4 +848,4 @@ const Promocaopv1 = () => {
   );
 };
 
-export default Promocaopv1;
+export default Promocao;
