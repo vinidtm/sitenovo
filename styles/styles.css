@@ -342,13 +342,6 @@ p {
   }
 }
 
-.video-player-container-tigre {
-  max-width: 900px;
-  margin: 0 auto;
-  margin-top: 30px;
-  padding-bottom: 0px;
-}
-
 .headline-container {
   max-width: 900px;
   margin: 0 auto;
@@ -1486,4 +1479,43 @@ a.button-BcKPHv6494987-element {
   font-weight: bold; 
   text-shadow: #000000 0px 1px 0px;
   text-decoration: none;
+}
+.progress-container {
+  align-items: center;
+  max-width: 400px; /* Ajuste conforme necessário */
+  max-height: 200px;
+  margin-top: 5px; /* Espaço entre o topo da página e a barra de progresso */
+  background-color: #f44336; /* Cor chamativa */
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 100px;
+}
+
+.progress-bar {
+  height: 20px; /* Altura da barra de progresso */
+  background-color: #fff; /* Cor da barra de progresso */
+  border-radius: 5px;
+  animation: increaseWidth 2s ease-in-out; /* Animação de largura */
+}
+
+.progress-text {
+  text-align: center;
+  font-weight: bold;
+  color: #fff; /* Cor do texto */
+}
+
+@keyframes increaseWidth {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.video-player-container.up1 {
+  max-width: 100px;
+  margin: 0 auto;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
