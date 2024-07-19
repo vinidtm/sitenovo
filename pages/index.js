@@ -24,14 +24,13 @@ const Home = () => {
             };
           `}
         </script>
-
-        <link rel="preload" href="https://scripts.converteai.net/1db8e03a-c1fc-4fa6-b094-4a5346a615e6/ab-test/655fadec01dd3c002efe655b/player.js" as="script"/>
-        <link rel="preload" href="https://cdn.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js" as="script"/>
-        <link rel="preload" href="https://images.converteai.net/1db8e03a-c1fc-4fa6-b094-4a5346a615e6/players/655fadec01dd3c002efe655b/thumbnail.jpg" as="image"/>
+        <link rel="preload" href="https://scripts.converteai.net/1db8e03a-c1fc-4fa6-b094-4a5346a615e6/ab-test/669a9192176782000a9f7bd2/player.js" as="script"/>
+        <link rel="preload" href="https://cdn.converteai.net/lib/js/smartplayer/1/smartplayer.min.js" as="script"/>
+        <link rel="preload" href="https://images.converteai.net/1db8e03a-c1fc-4fa6-b094-4a5346a615e6/players/669a9192176782000a9f7bd2/thumbnail.jpg" as="image"/>
         <link rel="dns-prefetch" href="https://cdn.converteai.net"/>
         <link rel="dns-prefetch" href="https://scripts.converteai.net"/>
         <link rel="dns-prefetch" href="https://images.converteai.net"/>
-        <link rel="dns-prefetch" href="https://api.vturb.com.br"/>
+        <link rel="dns-prefetch" href="https://api.vturb.com.br"></link>
       </Head>
       <div>
         <div className='headline'>
