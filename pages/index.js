@@ -40,9 +40,9 @@ const Home = () => {
     </Head>
     <div>
     <div className='video-player-container'>
-    <div dangerouslySetInnerHTML={{ __html: '<script type="text/javascript" id="scr_65d7ca9b97098c0007bd9817"></script>' }} />
+    <div dangerouslySetInnerHTML={{ __html: '<script type="text/javascript" id="scr_669a9192176782000a9f7bd2"></script>' }} />
       <Helmet>
-      <script type="text/javascript">var s=document.createElement("script");s.src="https://scripts.converteai.net/1db8e03a-c1fc-4fa6-b094-4a5346a615e6/ab-test/65d7ca9b97098c0007bd9817/player.js",s.async=!0,document.head.appendChild(s);</script>
+      <script type="text/javascript">var s=document.createElement("script");s.src="https://scripts.converteai.net/1db8e03a-c1fc-4fa6-b094-4a5346a615e6/ab-test/669a9192176782000a9f7bd2/player.js",s.async=!0,document.head.appendChild(s);</script>
       </Helmet>
     </div>
     <Footer />
