@@ -255,10 +255,6 @@ p {
     margin-top: -50px;
   }
 
-  .video-player-container {
-    max-width: 100%;
-    padding: 10px;
-  }
 
   .video-player-container-tigre {
     max-width: 100%;
@@ -291,9 +287,9 @@ p {
 
 .video-player-container {
   max-width: 900px;
-  margin: 0 auto;
+  margin: 0 15px;
   padding-top: 50px;
-  padding-bottom: 630px;
+  padding-bottom: 100px;
 }
 /* Adicione isso ao seu arquivo de estilos CSS */
 .doutor {
@@ -359,6 +355,7 @@ p {
   bottom: 0;
   left: 0;
   width: 100%;
+  margin-top: 25px;
 }
 
 .logo {
