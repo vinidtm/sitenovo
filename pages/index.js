@@ -11,7 +11,7 @@ const Home = () => {
         <link rel='shortcut icon' href='/Icon.png' />
         <script>
           {`
-            var urlBackRedirect = 'https://epigalocatequina.online//promocao';
+            var urlBackRedirect = 'https://elixirbioativo.com/promocao';
             urlBackRedirect = urlBackRedirect.trim() +
                 (urlBackRedirect.indexOf("?") > 0 ? '&' : '?') +
                 document.location.search.replace('?', '').toString();
