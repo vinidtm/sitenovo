@@ -36,6 +36,11 @@ export default function MyApp({ Component, pageProps }) {
               `,
             }}
           />    
+          <script
+  src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+  async
+  defer
+></script>
     </Head>
     <Component {...pageProps}/>
         {/* Google Tag Manager (noscript) */}
