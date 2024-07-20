@@ -50,5 +50,14 @@ export default function MyApp({ Component, pageProps }) {
             }}
           />
           {/* End Google Tag Manager (noscript) */}
+          <script>
+  window.pixelId = "669b0faaad2bce9ec6acc7ff";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+  document.head.appendChild(a);
+</script>
     </>
+    
 }
